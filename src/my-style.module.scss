@@ -1,0 +1,42 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap");
+
+$warna-dasar: #953e46;
+$warna-second: #f5e2cf;
+
+body {
+  font-family: "Reddit Mono", monospace;
+  background-color: $warna-dasar;
+}
+
+.transparan {
+  background-color: #953e46 !important;
+}
+
+.borderNC {
+  padding: 0;
+  border-top: 2px solid $warna-second;
+  border-bottom: 2px solid $warna-second;
+  .navigasiLink:nth-child(1) {
+    margin: 0 1.5rem 0 0;
+  }
+  .navigasiLink {
+    color: $warna-second;
+    margin: 0 1.7rem;
+  }
+  .navigasiLink:hover {
+    color: #ffffff;
+  }
+}
+.imgParent {
+  padding: 0;
+  .imgChild {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+}
+.MSOContainer {
+  padding: 7rem 0;
+}
