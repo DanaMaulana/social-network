@@ -1,13 +1,13 @@
 import { Container, Row, Col } from "react-bootstrap";
-import images from "./image_management/ImageImporterMainOne";
-import styleMSO from "../my-style.module.scss";
-import * as Icon from "react-bootstrap-icons";
+import images from "./image_management/ImageImporterMainTwo";
+import MainSectionThree from "./MainSectionThree";
+import styleMST from "../my-style.module.scss";
 
-function MainSectionOne() {
+function MainSectionTwo() {
   return (
-    <Container className={`${styleMSO.MSOContainer}`}>
+    <Container className={`${styleMST.MSTContainer}`}>
       <Row>
-        {/* Video */}
+        {/* People */}
         <Col xs={12} xl={8}>
           <Row>
             <Col
@@ -20,20 +20,20 @@ function MainSectionOne() {
               }}
             >
               <h3 style={{ color: "#f5e2cf", display: "inline-block" }}>
-                Videos
+                People
               </h3>
-              <span style={{ color: "#f5e2cf" }}>Browse all videos</span>
+              <span style={{ color: "#f5e2cf" }}>View All</span>
             </Col>
           </Row>
-          <Row className={`${styleMSO.barisSatu}`}>
-            <Col xl={8} className={`${styleMSO.imgParent} position-relative`}>
+          <Row className={`${styleMST.barisSatu}`}>
+            <Col xl={8} className={`${styleMST.imgParent} position-relative`}>
               <img
                 src={images[0]}
                 alt="programmer"
-                className={`${styleMSO.imgChild}`}
+                className={`${styleMST.imgChild}`}
               />
-              <span className={styleMSO.spanPembungkus}>
-                <h3>How to improve your skills</h3>
+              <span className={styleMST.spanPembungkus}>
+                <h3>Waseem Arshad</h3>
                 <span
                   style={{
                     display: "flex",
@@ -41,22 +41,22 @@ function MainSectionOne() {
                     alignItems: "center",
                   }}
                 >
-                  <span>WaseemArshad</span>
+                  <span>User interface</span>
                   <span>187867 views</span>
                 </span>
               </span>
             </Col>
-            <Col xl={4} className={`${styleMSO.grandMa} d-flex flex-column`}>
+            <Col xl={4} className={`${styleMST.grandMa} d-flex flex-column`}>
               <Col
                 xl
-                className={`${styleMSO.imgParent} position-relative flex-fill`}
+                className={`${styleMST.imgParent} position-relative flex-fill`}
               >
                 <img
                   src={images[1]}
                   alt="ngopi bareng programmer"
-                  className={`${styleMSO.imgChild}`}
+                  className={`${styleMST.imgChild}`}
                 />
-                <span className={styleMSO.spanPembungkus}>
+                <span className={styleMST.spanPembungkus}>
                   <span
                     style={{
                       display: "flex",
@@ -71,14 +71,14 @@ function MainSectionOne() {
               </Col>
               <Col
                 xl
-                className={`${styleMSO.imgParent} position-relative flex-fill`}
+                className={`${styleMST.imgParent} position-relative flex-fill`}
               >
                 <img
                   src={images[2]}
                   alt="komputer"
-                  className={`${styleMSO.imgChild}`}
+                  className={`${styleMST.imgChild}`}
                 />
-                <span className={styleMSO.spanPembungkus}>
+                <span className={styleMST.spanPembungkus}>
                   <span
                     style={{
                       display: "flex",
@@ -93,14 +93,14 @@ function MainSectionOne() {
               </Col>
             </Col>
           </Row>
-          <Row className={`${styleMSO.barisDua}`}>
-            <Col xl className={`${styleMSO.imgParent} position-relative`}>
+          <Row className={`${styleMST.barisDua}`}>
+            <Col xl className={`${styleMST.imgParent} position-relative`}>
               <img
                 src={images[3]}
                 alt="meja pc"
-                className={`${styleMSO.imgChild}`}
+                className={`${styleMST.imgChild}`}
               />
-              <span className={styleMSO.spanPembungkus}>
+              <span className={styleMST.spanPembungkus}>
                 <span
                   style={{
                     display: "flex",
@@ -113,13 +113,13 @@ function MainSectionOne() {
                 </span>
               </span>
             </Col>
-            <Col xl className={`${styleMSO.imgParent} position-relative`}>
+            <Col xl className={`${styleMST.imgParent} position-relative`}>
               <img
                 src={images[4]}
                 alt="kursi pc"
-                className={`${styleMSO.imgChild}`}
+                className={`${styleMST.imgChild}`}
               />
-              <span className={styleMSO.spanPembungkus}>
+              <span className={styleMST.spanPembungkus}>
                 <span
                   style={{
                     display: "flex",
@@ -132,13 +132,13 @@ function MainSectionOne() {
                 </span>
               </span>
             </Col>
-            <Col xl className={`${styleMSO.imgParent} position-relative`}>
+            <Col xl className={`${styleMST.imgParent} position-relative`}>
               <img
                 src={images[5]}
                 alt="meja dan kursi pc"
-                className={`${styleMSO.imgChild}`}
+                className={`${styleMST.imgChild}`}
               />
-              <span className={styleMSO.spanPembungkus}>
+              <span className={styleMST.spanPembungkus}>
                 <span
                   style={{
                     display: "flex",
@@ -152,36 +152,30 @@ function MainSectionOne() {
               </span>
             </Col>
           </Row>
+          {/* Main Section Three */}
+          <MainSectionThree />
         </Col>
-        {/* Activity */}
-        <Col
-          xs={12}
-          xl={4}
-          className={`${styleMSO.activityCol}`}
-          // style={{ height: "39rem", overflow: "auto" }}
-        >
+        {/* Channels */}
+        <Col xs={12} xl={4} className={`${styleMST.peopleCol}`}>
           <Row>
             <Col
               style={{
-                paddingRight: 0,
                 display: "flex",
                 justifyContent: "space-between",
                 alignItems: "center",
               }}
             >
               <h3 style={{ color: "#f5e2cf", display: "inline-block" }}>
-                Activity
+                Channels
               </h3>
-              <span style={{ color: "#f5e2cf" }}>
-                View timeline / Filter Acvities
-              </span>
+              <span style={{ color: "#f5e2cf" }}>Browse all channel</span>
             </Col>
           </Row>
           <div
             className="d-flex flex-column row-gap-3"
             style={{
               width: "100%",
-              height: "36rem",
+              height: "56rem",
               overflowY: "auto",
               overflowX: "hidden",
               scrollbarColor: "#f5e2cf #953e46",
@@ -189,99 +183,99 @@ function MainSectionOne() {
             }}
           >
             <Row className="d-flex align-items-center">
-              <Col xs={4}>
+              <Col xs={6} className={`${styleMST.colGanjil}`}>
                 <img
                   src={images[5]}
                   alt="meja dan kursi pc"
                   className="rounded"
                 />
               </Col>
-              <Col xs={8}>
-                <span>
-                  <strong>John</strong> commented
-                  <br /> saya telah lama menggunakan website ini.. <br />
-                  <Icon.ChatFill /> 2 minutes ago
-                </span>
+              <Col xs={6} className={`${styleMST.colGenap}`}>
+                <img
+                  src={images[2]}
+                  alt="meja dan kursi pc"
+                  className="rounded"
+                />
               </Col>
             </Row>
             <Row className="d-flex align-items-center">
-              <Col xs={4}>
+              <Col xs={6} className={`${styleMST.colGanjil}`}>
                 <img
                   src={images[3]}
                   alt="meja dan kursi pc"
                   className="rounded"
                 />
               </Col>
-              <Col xs={8}>
-                <span>
-                  <strong>Ziel</strong> commented <br /> saya telah lama
-                  menggunakan website ini.. <br />
-                  <Icon.ChatFill /> 2 minutes ago
-                </span>
-              </Col>
-            </Row>
-            <Row className="d-flex align-items-center">
-              <Col xs={4}>
-                <img
-                  src={images[1]}
-                  alt="meja dan kursi pc"
-                  className="rounded"
-                />
-              </Col>
-              <Col xs={8}>
-                <span>
-                  <strong>Mark</strong> commented <br /> saya telah lama
-                  menggunakan website ini.. <br />
-                  <Icon.ChatFill /> 2 minutes ago
-                </span>
-              </Col>
-            </Row>
-            <Row className="d-flex align-items-center">
-              <Col xs={4}>
+              <Col xs={6} className={`${styleMST.colGenap}`}>
                 <img
                   src={images[0]}
                   alt="meja dan kursi pc"
                   className="rounded"
                 />
               </Col>
-              <Col xs={8}>
-                <span>
-                  <strong>Michael</strong> commented <br /> saya telah lama
-                  menggunakan website ini.. <br />
-                  <Icon.ChatFill /> 2 minutes ago
-                </span>
+            </Row>
+            <Row className="d-flex align-items-center">
+              <Col xs={6} className={`${styleMST.colGanjil}`}>
+                <img
+                  src={images[2]}
+                  alt="meja dan kursi pc"
+                  className="rounded"
+                />
+              </Col>
+              <Col xs={6} className={`${styleMST.colGenap}`}>
+                <img
+                  src={images[1]}
+                  alt="meja dan kursi pc"
+                  className="rounded"
+                />
               </Col>
             </Row>
             <Row className="d-flex align-items-center">
-              <Col xs={4}>
+              <Col xs={6} className={`${styleMST.colGanjil}`}>
+                <img
+                  src={images[0]}
+                  alt="meja dan kursi pc"
+                  className="rounded"
+                />
+              </Col>
+              <Col xs={6} className={`${styleMST.colGenap}`}>
+                <img
+                  src={images[3]}
+                  alt="meja dan kursi pc"
+                  className="rounded"
+                />
+              </Col>
+            </Row>
+            <Row className="d-flex align-items-center">
+              <Col xs={6} className={`${styleMST.colGanjil}`}>
+                <img
+                  src={images[1]}
+                  alt="meja dan kursi pc"
+                  className="rounded"
+                />
+              </Col>
+              <Col xs={6} className={`${styleMST.colGenap}`}>
+                <img
+                  src={images[5]}
+                  alt="meja dan kursi pc"
+                  className="rounded"
+                />
+              </Col>
+            </Row>
+            <Row className="d-flex align-items-center">
+              <Col xs={6} className={`${styleMST.colGanjil}`}>
                 <img
                   src={images[4]}
                   alt="meja dan kursi pc"
                   className="rounded"
                 />
               </Col>
-              <Col xs={8}>
-                <span>
-                  <strong>Rachel</strong> commented <br /> saya telah lama
-                  menggunakan website ini.. <br />
-                  <Icon.ChatFill /> 2 minutes ago
-                </span>
-              </Col>
-            </Row>
-            <Row className="d-flex align-items-center">
-              <Col xs={4}>
+              <Col xs={6} className={`${styleMST.colGenap}`}>
                 <img
-                  src={images[4]}
+                  src={images[2]}
                   alt="meja dan kursi pc"
                   className="rounded"
                 />
-              </Col>
-              <Col xs={8}>
-                <span>
-                  <strong>Viola</strong> commented <br /> saya telah lama
-                  menggunakan website ini.. <br />
-                  <Icon.ChatFill /> 2 minutes ago
-                </span>
               </Col>
             </Row>
           </div>
@@ -291,4 +285,4 @@ function MainSectionOne() {
   );
 }
 
-export default MainSectionOne;
+export default MainSectionTwo;

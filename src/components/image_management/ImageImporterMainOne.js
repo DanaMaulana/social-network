@@ -5,7 +5,7 @@ export const importAllImages = (requireContext) => {
 
 // Mengimpor semua gambar dari folder tertentu
 const images = importAllImages(
-  require.context("../assets/images/video", false, /\.(png|jpe?g|svg)$/)
+  require.context("../../assets/images/video", false, /\.(png|jpe?g|svg)$/)
 );
 
 export default images;

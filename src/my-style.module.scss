@@ -1,14 +1,16 @@
 @import "~bootstrap/scss/bootstrap";
-@import url("https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap");
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
 $warna-dasar: #953e46;
 $warna-second: #f5e2cf;
 
 body {
-  font-family: "Reddit Mono", monospace;
+  font-family: "Quicksand", sans-serif;
   background-color: $warna-dasar;
 }
-
+// Navigation Child
 .transparan {
   background-color: #953e46 !important;
 }
@@ -28,15 +30,90 @@ body {
     color: #ffffff;
   }
 }
-.imgParent {
+// Main Section One
+.grandMa {
   padding: 0;
+}
+.imgParent {
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0.3rem;
   .imgChild {
+    position: relative;
     width: 100%;
     height: 100%;
     display: block;
     object-fit: cover;
+    border-radius: 7px;
+  }
+}
+.barisSatu {
+  padding-left: 8px;
+  .imgParent:nth-child(1) {
+    padding-top: 0;
+  }
+}
+.spanPembungkus {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  padding-top: 20%;
+  padding-right: 20px;
+  height: 50%;
+  width: 100%;
+  border-bottom-left-radius: 7px;
+  object-fit: cover;
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+.barisDua {
+  padding-left: 8px;
+  .imgParent {
+    padding-bottom: 0;
   }
 }
 .MSOContainer {
+  h3,
+  span {
+    color: #fff;
+  }
+  padding: 7rem 0;
+}
+// Activity
+.activityCol {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+// Main section Two
+.MSTContainer {
+  h3,
+  span {
+    color: #fff;
+  }
+  padding: 0;
+}
+// people
+.peopleCol {
+  img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+  }
+}
+.colGanjil {
+  padding-right: 0;
+}
+// Main section Two
+.MSTEContainer {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  h3,
+  span {
+    color: #fff;
+  }
   padding: 7rem 0;
 }

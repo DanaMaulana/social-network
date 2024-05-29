@@ -7,7 +7,10 @@ function NavigationChild() {
   return (
     <>
       <Navbar>
-        <Container className={`${styleNC.borderNC}`}>
+        <Container
+          className={`${styleNC.borderNC}`}
+          style={{ overflowX: "auto" }}
+        >
           <Nav className="me-auto">
             <Nav.Link href="#videos" className={`${styleNC.navigasiLink}`}>
               Videos
