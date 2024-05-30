@@ -3,6 +3,7 @@ import NavBar from "./components/NavigationBar";
 import NavigationChild from "./components/NavigationChild";
 import MainSectionOne from "./components/MainSectionOne";
 import MainSectionTwo from "./components/MainSectionTwo";
+import Footer from "./components/Footer";
 import "./my-style.module.scss";
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
       </div>
       <div className="MainSectionTwo">
         <MainSectionTwo />
+      </div>
+      <div className="Footer">
+        <Footer />
       </div>
     </>
   );

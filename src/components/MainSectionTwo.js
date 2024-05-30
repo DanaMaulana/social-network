@@ -172,6 +172,14 @@ function MainSectionTwo() {
             </Col>
           </Row>
           <div
+            style={{
+              width: "100%",
+              height: "3px",
+              background: "#f5e2cf",
+              marginBottom: "10px",
+            }}
+          ></div>
+          <div
             className="d-flex flex-column row-gap-3"
             style={{
               width: "100%",
