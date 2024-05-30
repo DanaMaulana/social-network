@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/DanaMaulana/social-network/static/css/main.4f41d8a5.css",
-    "main.js": "/DanaMaulana/social-network/static/js/main.1409c8e6.js",
-    "static/js/453.1c89611b.chunk.js": "/DanaMaulana/social-network/static/js/453.1c89611b.chunk.js",
-    "static/media/image1.png": "/DanaMaulana/social-network/static/media/image1.ede9a6f79b4343af19d3.png",
-    "static/media/image3.png": "/DanaMaulana/social-network/static/media/image3.380feb6d8681a213c3f2.png",
-    "static/media/image4.png": "/DanaMaulana/social-network/static/media/image4.4fb8be67a78ad81c0f18.png",
-    "static/media/image5.png": "/DanaMaulana/social-network/static/media/image5.c66ae27129cf196b296a.png",
-    "static/media/image2.png": "/DanaMaulana/social-network/static/media/image2.a30b22fbad3d5c7144a5.png",
-    "static/media/image6.png": "/DanaMaulana/social-network/static/media/image6.ca40b9a310ccbc7da5c5.png",
-    "index.html": "/DanaMaulana/social-network/index.html",
-    "main.4f41d8a5.css.map": "/DanaMaulana/social-network/static/css/main.4f41d8a5.css.map",
-    "main.1409c8e6.js.map": "/DanaMaulana/social-network/static/js/main.1409c8e6.js.map",
-    "453.1c89611b.chunk.js.map": "/DanaMaulana/social-network/static/js/453.1c89611b.chunk.js.map"
+    "main.css": "/social-network/static/css/main.4f41d8a5.css",
+    "main.js": "/social-network/static/js/main.3762bc8f.js",
+    "static/js/453.1c89611b.chunk.js": "/social-network/static/js/453.1c89611b.chunk.js",
+    "static/media/image1.png": "/social-network/static/media/image1.ede9a6f79b4343af19d3.png",
+    "static/media/image3.png": "/social-network/static/media/image3.380feb6d8681a213c3f2.png",
+    "static/media/image4.png": "/social-network/static/media/image4.4fb8be67a78ad81c0f18.png",
+    "static/media/image5.png": "/social-network/static/media/image5.c66ae27129cf196b296a.png",
+    "static/media/image2.png": "/social-network/static/media/image2.a30b22fbad3d5c7144a5.png",
+    "static/media/image6.png": "/social-network/static/media/image6.ca40b9a310ccbc7da5c5.png",
+    "index.html": "/social-network/index.html",
+    "main.4f41d8a5.css.map": "/social-network/static/css/main.4f41d8a5.css.map",
+    "main.3762bc8f.js.map": "/social-network/static/js/main.3762bc8f.js.map",
+    "453.1c89611b.chunk.js.map": "/social-network/static/js/453.1c89611b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f41d8a5.css",
-    "static/js/main.1409c8e6.js"
+    "static/js/main.3762bc8f.js"
   ]
 }
